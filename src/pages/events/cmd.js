@@ -50,11 +50,13 @@ const Cmd = () => {
           <div className="w-full flex flex-col gap-2">
             <a href="https://bit.ly/KTICMD" target="_blank" rel="noreferrer">
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
               </button>
             </a>
             <a href="/assets/docs/Karya-Tulis-Ilmiah-CMD-2022.pdf">
               <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-download mr-2" />
                 Petunjuk Teknis
               </button>
             </a>
@@ -76,11 +78,13 @@ const Cmd = () => {
               rel="noreferrer"
             >
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
               </button>
             </a>
             <a href="/assets/docs/Desain-Poster-CMD-2022.pdf">
               <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-download mr-2" />
                 Petunjuk Teknis
               </button>
             </a>
@@ -102,11 +106,13 @@ const Cmd = () => {
               rel="noreferrer"
             >
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
               </button>
             </a>
             <a href="/assets/docs/Fast-Typing-CMD-2022.pdf">
               <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-download mr-2" />
                 Petunjuk Teknis
               </button>
             </a>
@@ -128,10 +134,12 @@ const Cmd = () => {
               rel="noreferrer"
             >
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
               </button>
             </a>
             <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+              <i className="fa-solid fa-download mr-2" />
               Petunjuk Teknis
             </button>
           </div>
@@ -152,6 +160,7 @@ const Cmd = () => {
               rel="noreferrer"
             >
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
               </button>
             </a>

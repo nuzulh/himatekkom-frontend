@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.cad59f5f.css",
-    "main.js": "/static/js/main.89ad609e.js",
+    "main.css": "/static/css/main.f125e463.css",
+    "main.js": "/static/js/main.d4629c7d.js",
+    "static/media/typing.png": "/static/media/typing.cf29495851244d92e63c.png",
     "static/media/himatekkom2-teks.png": "/static/media/himatekkom2-teks.5925e3bf09fec2c451bd.png",
+    "static/media/ml.png": "/static/media/ml.45061c23104659a58fe6.png",
+    "static/media/seminar.png": "/static/media/seminar.39e80644617ac0f273a7.png",
+    "static/media/kti.png": "/static/media/kti.23e50163c799374d17f2.png",
+    "static/media/dsn.png": "/static/media/dsn.7d74719c5930311b9582.png",
     "static/media/usk.png": "/static/media/usk.0d399d8baf5b8b154870.png",
     "static/media/himatekkom.png": "/static/media/himatekkom.1db9f002a8ede243dd0b.png",
     "index.html": "/index.html",
-    "main.cad59f5f.css.map": "/static/css/main.cad59f5f.css.map",
-    "main.89ad609e.js.map": "/static/js/main.89ad609e.js.map"
+    "main.f125e463.css.map": "/static/css/main.f125e463.css.map",
+    "main.d4629c7d.js.map": "/static/js/main.d4629c7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad59f5f.css",
-    "static/js/main.89ad609e.js"
+    "static/css/main.f125e463.css",
+    "static/js/main.d4629c7d.js"
   ]
 }
