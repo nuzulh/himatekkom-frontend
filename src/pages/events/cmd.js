@@ -28,6 +28,9 @@ const Cmd = () => {
         <p className="text-2xl font-bold text-center text-primary md:text-4xl">
           {data.title}
         </p>
+        <p className="text-sm font-bold text-center text-secondary mt-2 md:text-lg">
+          <i className="fa-regular fa-calendar mr-2" />1 - 4 Desember 2022
+        </p>
       </div>
       <p className="text-center py-5 text-primary text-sm md:text-lg">
         {data.detail}
@@ -41,14 +44,21 @@ const Cmd = () => {
         <div className="p-4 my-4 md:p-8 flex items-center flex-col w-11/12 md:w-5/12 shadow-lg rounded-2xl bg-[white]">
           <img
             style={{
-              height: "16rem",
+              maxHeight: "15rem",
             }}
             alt="kti"
             src={kti}
           />
-          <p className="font-bold p-4">Karya Tulis Ilmiah</p>
+          <p className="font-bold pt-4">Karya Tulis Ilmiah</p>
+          <p className="text-secondary pb-4 text-sm">
+            Biaya pendaftaran: <strong>10K</strong>/Orang
+          </p>
           <div className="w-full flex flex-col gap-2">
-            <a href="https://bit.ly/KTICMD" target="_blank" rel="noreferrer">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSchAvoLbDEKsqtavYUgfC1lqyyeAqzFYTQuSbH0CWNwA2AvtA/viewform"
+              target="_blank"
+              rel="noreferrer"
+            >
               <button className="bg-blue shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
                 <i className="fa-solid fa-pen-clip mr-2" />
                 Daftar
@@ -65,12 +75,15 @@ const Cmd = () => {
         <div className="p-4 my-4 md:p-8 flex items-center flex-col w-11/12 md:w-5/12 shadow-lg rounded-2xl bg-[white]">
           <img
             style={{
-              height: "16rem",
+              maxHeight: "15rem",
             }}
             alt="dsn"
             src={dsn}
           />
-          <p className="font-bold p-4">Desain Poster</p>
+          <p className="font-bold pt-4">Desain Poster</p>
+          <p className="text-secondary pb-4 text-sm">
+            Biaya pendaftaran: <strong>10K</strong>/Orang
+          </p>
           <div className="w-full flex flex-col gap-2">
             <a
               href="https://bit.ly/DesainPosterCMD"
@@ -93,15 +106,18 @@ const Cmd = () => {
         <div className="p-4 my-4 md:p-8 flex items-center flex-col w-11/12 md:w-5/12 shadow-lg rounded-2xl bg-[white]">
           <img
             style={{
-              height: "16rem",
+              maxHeight: "15rem",
             }}
             alt="typing"
             src={typing}
           />
-          <p className="font-bold p-4">Fast Typing</p>
+          <p className="font-bold pt-4">Fast Typing</p>
+          <p className="text-secondary pb-4 text-sm">
+            Biaya pendaftaran: <strong>15K</strong>/Orang
+          </p>
           <div className="w-full flex flex-col gap-2">
             <a
-              href="https://bit.ly/DesainPosterCMD"
+              href="https://bit.ly/FastTypingCMD"
               target="_blank"
               rel="noreferrer"
             >
@@ -121,12 +137,15 @@ const Cmd = () => {
         <div className="p-4 my-4 md:p-8 flex items-center flex-col w-11/12 md:w-5/12 shadow-lg rounded-2xl bg-[white]">
           <img
             style={{
-              height: "16rem",
+              maxHeight: "15rem",
             }}
             alt="ml"
             src={ml}
           />
-          <p className="font-bold p-4">Mobile Legend</p>
+          <p className="font-bold pt-4">Turnamen Mobile Legend</p>
+          <p className="text-secondary pb-4 text-sm">
+            Biaya pendaftaran: <strong>50k</strong>/Tim
+          </p>
           <div className="w-full flex flex-col gap-2">
             <a
               href="https://bit.ly/USKCOMPUTER"
@@ -138,21 +157,26 @@ const Cmd = () => {
                 Daftar
               </button>
             </a>
-            <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
-              <i className="fa-solid fa-download mr-2" />
-              Petunjuk Teknis
-            </button>
+            <a href="/assets/docs/Mobile-Legend-CMD-2022.pdf">
+              <button className="bg-primary shadow-md hover:opacity-80 transition-all duration-300 text-[white] w-full py-2 rounded-lg">
+                <i className="fa-solid fa-download mr-2" />
+                Petunjuk Teknis
+              </button>
+            </a>
           </div>
         </div>
         <div className="p-4 my-4 md:p-8 flex items-center flex-col w-11/12 md:w-5/12 shadow-lg rounded-2xl bg-[white]">
           <img
             style={{
-              height: "16rem",
+              maxHeight: "15rem",
             }}
             alt="seminar"
             src={seminar}
           />
-          <p className="font-bold p-4">Seminar Nasional</p>
+          <p className="font-bold pt-4">Seminar Nasional</p>
+          <p className="text-secondary pb-4 text-sm">
+            Biaya pendaftaran: <strong>Gratis</strong>
+          </p>
           <div className="w-full flex flex-col gap-2">
             <a
               href="https://forms.gle/cwEouaoX9E9mTHcFA"
