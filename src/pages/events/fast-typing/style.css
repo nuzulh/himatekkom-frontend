@@ -1,0 +1,45 @@
+@font-face {
+    font-family: bigmacca;
+    src: url(../../../assets/fonts/bigmacca.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.babak {
+    padding-bottom: 1rem;
+    font-family: bigmacca;
+    font-size: 2rem;
+    background: -webkit-linear-gradient(#D52471, #3E1880);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lomba {
+    font-family: bigmacca;
+    font-size: 4rem;
+    background: -webkit-linear-gradient(#D52471, #3E1880);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.typing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 640px;
+}
+.typing iframe {
+    width: 100%;
+    height: 100%;
+}

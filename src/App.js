@@ -6,6 +6,9 @@ import Berita from "./pages/berita";
 import Galeri from "./pages/galeri";
 import Layanan from "./pages/layanan";
 import Cmd from "./pages/events/cmd";
+import Babak1 from "./pages/events/fast-typing/babak1";
+import Babak2 from "./pages/events/fast-typing/babak2";
+import Final from "./pages/events/fast-typing/final";
 
 const App = () => {
   return (
@@ -21,6 +24,9 @@ const App = () => {
           <Route path="/layanan" element={<Layanan />} />
           {/* SUB-LINK */}
           <Route path="/acara/cmd" element={<Cmd />} />
+          <Route path="/acara/cmd/fast-typing/babak1" element={<Babak1 />} />
+          <Route path="/acara/cmd/fast-typing/babak2" element={<Babak2 />} />
+          <Route path="/acara/cmd/fast-typing/final" element={<Final />} />
         </Route>
       </Routes>
     </BrowserRouter>
