@@ -2,15 +2,7 @@
     font-family: bigmacca;
     src: url(../../../assets/fonts/bigmacca.ttf);
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    overflow: hidden;
-}
-main {
+.typing-container {
     display: flex;
     flex-direction: column;
     justify-content: center;

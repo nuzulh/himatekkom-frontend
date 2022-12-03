@@ -3,10 +3,10 @@ import "./style.css";
 
 const Babak1 = () => {
   return (
-    <main>
-      <p class="babak">Babak 1</p>
-      <p class="lomba">FAST TYPING</p>
-      <div class="typing">
+    <main className="typing-container">
+      <p className="babak">Babak 1</p>
+      <p className="lomba">FAST TYPING</p>
+      <div className="typing">
         <iframe
           width="640"
           height="600"

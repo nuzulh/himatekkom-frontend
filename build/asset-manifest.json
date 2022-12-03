@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2c7f8a4.css",
-    "main.js": "/static/js/main.65bdcc3c.js",
+    "main.css": "/static/css/main.a21132bd.css",
+    "main.js": "/static/js/main.962796d9.js",
     "static/media/typing.png": "/static/media/typing.cf29495851244d92e63c.png",
     "static/media/himatekkom2-teks.png": "/static/media/himatekkom2-teks.5925e3bf09fec2c451bd.png",
     "static/media/ml.png": "/static/media/ml.45061c23104659a58fe6.png",
@@ -12,11 +12,11 @@
     "static/media/himatekkom.png": "/static/media/himatekkom.1db9f002a8ede243dd0b.png",
     "static/media/bigmacca.ttf": "/static/media/bigmacca.033d01daa1daeee0baf3.ttf",
     "index.html": "/index.html",
-    "main.e2c7f8a4.css.map": "/static/css/main.e2c7f8a4.css.map",
-    "main.65bdcc3c.js.map": "/static/js/main.65bdcc3c.js.map"
+    "main.a21132bd.css.map": "/static/css/main.a21132bd.css.map",
+    "main.962796d9.js.map": "/static/js/main.962796d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2c7f8a4.css",
-    "static/js/main.65bdcc3c.js"
+    "static/css/main.a21132bd.css",
+    "static/js/main.962796d9.js"
   ]
 }
